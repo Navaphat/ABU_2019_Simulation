@@ -22,13 +22,13 @@
   <!-- พื้นสนาม -->
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_field"  
   args="-sdf -model abu_field -x -0.666140 -y -0.578099 -z 0.020985 -file 
-  /home/harit/.gazebo/models/abu_old/model.sdf" />
+  $(find line_follower)/models/abu_old/model.sdf" />
 
 
   <!-- วัตถุบนสนาม 3D -->
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_fieldAge"  
   args="-sdf -model abu_fieldAge -x -0.665956 -y -0.587415 -z 0.027825 -file 
-  /home/harit/.gazebo/models/fieldAge/model.sdf" />
+ $(find line_follower)/models/fieldAge/model.sdf" />
 
 
   <!--  spot -->
@@ -41,20 +41,20 @@
   <!-- ชาไก-->
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_chakai1"  
   args="-sdf -model chakai1 -x 11.067301 -y 6.107919 -z 0.020976 -file 
-  /home/harit/.gazebo/models/chakai/model.sdf" />
+  $(find line_follower)/models/chakai/model.sdf" />
 
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_chakai2"  
   args="-sdf -model chakai2 -x 11.055730 -y 6.440301 -z 0.020992 -file 
-  /home/harit/.gazebo/models/chakai/model.sdf" />
+  $(find line_follower)/models/chakai/model.sdf" />
   
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_chakai3"  
   args="-sdf -model chakai3 -x 11.063808 -y 6.753970 -z 0.020981 -file 
-  /home/harit/.gazebo/models/chakai/model.sdf" /> 
+  $(find line_follower)/models/chakai/model.sdf" /> 
 
   <!-- ไม้ผลัด -->
   <node pkg="gazebo_ros" type="spawn_model" name="spawn_stick"  
   args="-sdf -model stick -x 0.789407 -y 0.106470 -z 0.157833 -file 
-  /home/harit/test_ws/src/line_follower/models/unit_box/model.sdf" />
+  $(find line_follower)/models/unit_box/model.sdf" />
 
  
   

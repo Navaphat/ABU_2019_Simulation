@@ -19,8 +19,8 @@
       <collision name="collision">
         <geometry>
           <mesh>
-            <uri>model://abu_old/meshes/test.dae</uri>
-            <scale>1.0 1.0 1.0</scale>
+            <uri>model://abu_old/meshes/field.dae</uri>
+            <scale>1.2 1.2 1.2</scale>
           </mesh>
         </geometry>
         <surface>
@@ -46,8 +46,8 @@
       <visual name="visual">
         <geometry>
           <mesh>
-            <uri>model://abu_old/meshes/test.dae</uri>
-            <scale>1.0 1.0 1.0</scale>
+            <uri>model://abu_old/meshes/field.dae</uri>
+            <scale>1.2 1.2 1.2</scale>
           </mesh>
         </geometry>
       </visual>
