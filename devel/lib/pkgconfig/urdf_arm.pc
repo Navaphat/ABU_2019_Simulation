@@ -1,8 +1,0 @@
-prefix=/home/harit/test_ws/devel
-
-Name: urdf_arm
-Description: Description of urdf_arm
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
