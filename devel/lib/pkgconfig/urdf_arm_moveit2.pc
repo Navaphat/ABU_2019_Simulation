@@ -1,0 +1,8 @@
+prefix=/home/harit/test_ws/devel
+
+Name: urdf_arm_moveit2
+Description: Description of urdf_arm_moveit2
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

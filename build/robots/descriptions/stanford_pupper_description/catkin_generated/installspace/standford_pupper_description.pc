@@ -1,0 +1,8 @@
+prefix=/home/harit/test_ws/install
+
+Name: standford_pupper_description
+Description: Description of standford_pupper_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

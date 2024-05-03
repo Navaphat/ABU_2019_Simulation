@@ -1,0 +1,4 @@
+<launch>
+    <rosparam file="$(find line_follower)/config/line_follow.yaml" command="load" />
+    <!--<node>-->
+</launch>
